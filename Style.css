@@ -1,0 +1,169 @@
+.body {
+    background-color: rgb(242, 235, 227);
+}
+
+.Contianer {
+    display: flex;
+     
+    justify-content: center;
+    margin: 4rem 0 0 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 40rem;
+    margin-left: 16rem;
+    border-radius: 10px;
+
+
+}
+
+.detials-div {
+
+    border: 1px solid balck;
+
+    width: 20rem;
+    height: 30rem;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.image {
+    height: 30rem;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.image {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.Perfum {
+
+    margin: 2rem 0 0 2rem;
+    color: #80808C;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.headline {
+    margin: 1rem 0 0 2rem;
+}
+
+.para {
+    margin: 2rem 0 0 2rem;
+    word-spacing: 1px;
+    color: #808080;
+    font-size: 1rem;
+    line-height: 1.3;
+    font-weight: 600;
+    font-family: 'Urbanist', sans-serif
+}
+
+.price {
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+    font-family: 'Urbanist', sans-serif;
+    margin-left: 2rem;
+}
+
+.cross-price {
+    font-size: 1rem;
+    margin: 0.6rem 0 0 1rem;
+    text-decoration: line-through;
+    color: grey;
+}
+
+.price-div {
+    margin: 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.button {
+    margin: 0 0 0 2rem;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    border: 1px solid white;
+    width: 17rem;
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart {
+    width: 1.3em;
+    height: 20px;
+}
+
+@media only screen and  (max-width: 800px) {
+
+    * {
+        margin: 0;
+        padding: 0 0 0 0;
+
+      }
+    
+    .Contianer {
+        flex-direction: column;
+        margin: 2rem 2rem 0 3.5rem;
+        width: 28rem;
+    }
+    .image-div{
+        
+        width: 100%;
+    }
+    .image{
+        border-radius: 10px 10px 0 0;
+    }
+    .Perfum{
+        font-size: 1.5em;
+        margin-left: 3rem;
+    }
+    .headline{
+       
+        font-size: 2.6rem;
+        width: 100%;
+        margin-left: 3rem;
+        
+    }
+    .detials-div{
+        
+        height: inherit;
+       padding-bottom: 2rem;
+        border-radius: 20px;
+     
+    }
+    .para{
+        width: 100%;
+        margin-left: 3rem;
+        font-size: 1.5rem;
+    }
+    .price-div{
+        margin: 2rem 0 0 1rem;
+    }
+    .button{
+        margin: 2rem 0 0 2rem;
+    }
+    .price{
+        font-size: 3rem;
+    }
+    .cross-price{
+        font-size: 1.4rem;
+    }
+    .button{
+        width: 20rem;
+
+    }
+    .cart{
+        width: 2rem;
+        margin-right: 1rem;
+    }
+}
